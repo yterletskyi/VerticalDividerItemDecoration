@@ -2,8 +2,6 @@
 This is RecyclerView.ItemDecoration which draws all dividers except one for last item. Supports only vertical orientation.
 
 ```java
-package gd.com.antiaging.schedule;
-
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.Canvas;
