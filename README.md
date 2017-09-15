@@ -38,7 +38,7 @@ public class MyVerticalDividerItemDecoration extends RecyclerView.ItemDecoration
         canvas.save();
         final int left;
         final int right;
-        //noinspection AndroidLintNewApi - NewApi lint fails to handle overrides.
+       
         if (parent.getClipToPadding()) {
             left = parent.getPaddingLeft();
             right = parent.getWidth() - parent.getPaddingRight();
